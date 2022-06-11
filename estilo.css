@@ -1,0 +1,36 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: sans-serif;
+}
+.container {
+  padding: 10px;
+  border-radius: 8px;
+  margin-top: 110px;
+  width: 80%;
+  max-width: 400px;
+  border: 1px solid blueviolet;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-inline: auto;
+  background: rgba(255, 255, 255, 0.13);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(13.5px);
+  -webkit-backdrop-filter: blur(13.5px);
+}
+
+.imagemUsuario {
+  width: 150px;
+  border-radius: 50%;
+  border: 2px solid blueviolet;
+}
+
+button {
+  width: 100%;
+  padding: 8px;
+  background-color: blueviolet;
+  color: white;
+  font-weight: bold;
+}
